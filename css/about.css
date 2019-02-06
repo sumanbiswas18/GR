@@ -1,0 +1,105 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family:"Roboto"; text-align:justify;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    }
+.snap{
+    scroll-snap-align: start;
+}
+.container-fluid{
+		width:100%; height:auto; float:left;
+}
+.container{
+		width:100%; height: auto; margin:0 auto; max-width:1170px;
+}
+
+#banner{
+		width:100%; height:auto; background-image:url(../images/about_banner.jpg);
+		background-repeat:no-repeat; background-size:cover;
+		background-attachment:fixed; background-position: center center;
+}
+
+.trans_back{
+    width: 100%; height: 600px; background: rgba(0,0,0,.50)
+}
+.mrgin_top{
+  margin-top: 220px;
+}
+
+.head_1{
+    width:100%; height: auto; background-color: #e9e9e9;
+    color: #696969;
+}
+
+#history{
+    width:100%; height:auto; background-image:url(../images/history_logo.png);
+	background-repeat:no-repeat; background-size:cover;
+  
+}
+
+.history_text{
+    width:100%; height: auto;
+    color: #696969;
+}
+
+.hero_txt{
+     margin-top:240px;/* background-color: black */
+}
+.history_details{
+    padding:20%; text-align: justify;
+}
+
+#mission{
+    width:100%; height:auto; background-image:url(../images/mission.png);
+    background-repeat:no-repeat; background-size:cover;
+}
+.mission_txt{
+    margin-top:240px;
+}
+.mission_details{
+    padding:20%; text-align: justify;
+}
+#banner2{
+    width:100%; height:auto; background-image:url(../images/about_2nd.jpg);
+    background-repeat:no-repeat; background-size:cover;
+    background-attachment:fixed; background-position: center center;
+}
+
+#annual{
+    width:100%; height:auto; background-image:url(../images/annualre.jpg);
+    background-repeat:no-repeat; background-size:cover;
+    
+}
+.partner{
+    width:100%; height: auto;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .mrgin_top{
+        margin: 180px 0 0 0px; padding: 15px;
+    }
+ 
+    .hero_txt{
+        margin-top:40px;
+   }
+   .mission_txt{
+    margin-top:-480px;
+}
+   .history_details{
+       padding:5%; text-align: justify;
+       
+   }
+   .mission_details{
+    padding:5%; text-align: justify;
+    margin-top: 100px;
+}
+
+   
+    
+    }
+    

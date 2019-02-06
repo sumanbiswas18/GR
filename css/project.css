@@ -1,0 +1,39 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family:"Roboto"; text-align:justify;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    }
+.snap{
+    scroll-snap-align: start;
+}
+.container-fluid{
+		width:100%; height:auto; float:left;
+}
+.container{
+		width:100%; height: auto; margin:0 auto; max-width:1170px;
+}
+
+#banner{
+		width:100%; height:auto; background-image:url(../images/project_banner.jpg);
+		background-repeat:no-repeat; background-size:cover;
+		background-attachment:fixed; background-position: center center;
+}
+.text-color{
+    color: #696969;
+}
+.m_top{
+
+    margin:250px 0;
+}
+.more_pro1_txt{
+    margin: 150px 0;
+}
+.text-block {
+    position: absolute;
+    color: white;
+    top:180px; left:130px;
+}
