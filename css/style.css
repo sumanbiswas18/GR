@@ -75,7 +75,21 @@ body{
     margin: 120px 0 0 0px; padding: 20px;
 }
 
+.mobile-margin{
+    margin:20px 0 0 60px;
+}
 
 
 }
 
+@media only screen and (max-width: 375px){
+    .mobile-margin{
+        margin:20px 0 0 40px;
+    }   
+}
+
+@media screen and (max-width: 320px){
+    .mobile-margin{
+        margin:20px 0 0 15px;
+    }
+}

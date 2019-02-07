@@ -4,12 +4,9 @@ html {
   }
 body{
     font-family:"Roboto"; text-align:justify;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
+
     }
-.snap{
-    scroll-snap-align: start;
-}
+
 .container-fluid{
 		width:100%; height:auto; float:left;
 }
@@ -88,7 +85,7 @@ body{
         margin-top:40px;
    }
    .mission_txt{
-    margin-top:-480px;
+    margin-top:-430px;
 }
    .history_details{
        padding:5%; text-align: justify;
@@ -102,4 +99,17 @@ body{
    
     
     }
+
+
+    @media only screen and (max-width: 375px){
+        .mission_txt{
+            margin-top:-450px;
+        }
+    }
     
+    
+    @media only screen and (max-width: 320px){
+        .mission_txt{
+            margin-top:-490px;
+        }
+    }
